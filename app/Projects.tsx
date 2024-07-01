@@ -3,13 +3,13 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="max-w-[1440px] m-auto p-4">
+    <div id="projects" className=" w-full h:svh py-72 :py-16 scroll-smooth">
+      <div className="max-w-[1440px] m-auto p-4">
         <p className="uppercase text-2xl font-semibold text-[#709dff] tracking-widest">
           Projects
         </p>
         <div className="grid md:grid-cols-2 gap-6 px-6 ">
           <div className=" relative flex justify-center items-center rounded-xl shadow-xl shadow-gray-400 p-4 hover:scale-105 ease-in duration-300 group hover:bg-gradient-to-r from-[#5651ef] to-[#709dff]">
-        <div id="projects" className=" w-full h:svh py-72 :py-16 scroll-smooth">
             <img
               className=" group-hover:opacity-10"
               src="/assets/portfolio.png"
